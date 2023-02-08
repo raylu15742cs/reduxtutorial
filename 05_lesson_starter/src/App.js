@@ -23,7 +23,7 @@ function App() {
 
         <Route path="user">
           <Route index element={<UsersList />} />
-          <Route path="userId" elemeent={<UserPage />} />      
+          <Route path=":userId" element={<UserPage />} />      
         </Route>
 
         {/* Catch all = replace with 404 component if you want */}
