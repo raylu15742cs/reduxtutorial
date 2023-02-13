@@ -10,7 +10,7 @@ const PostsList = () => {
         isSuccess,
         isError,
         error
-    } = useGetPostsQuery
+    } = useGetPostsQuery()
 
     const orderedPostIds = useSelector(selectPostIds)
 
