@@ -145,7 +145,7 @@ export const selectPostById = (state, postId) =>
 
 export const selectPostsByUser = createSelector(
     [selectAllPosts , (state, userId) => userId],
-    (posts, userId) => posts.filter(post => post.user === userId)
+    (posts, userId) => posts.filter(post => post.userId === userId)
 )
 export const { increaseCount, reactionAdded } = postsSlice.actions
 
