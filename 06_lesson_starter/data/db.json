@@ -2,18 +2,6 @@
   "todos": [
     {
       "userId": 1,
-      "id": 1,
-      "title": "delectus aut autem",
-      "completed": false
-    },
-    {
-      "userId": 1,
-      "id": 2,
-      "title": "quis ut nam facilis et officia qui",
-      "completed": true
-    },
-    {
-      "userId": 1,
       "id": 4,
       "title": "et porro tempora",
       "completed": true
@@ -1181,6 +1169,12 @@
       "title": "New todo!",
       "completed": false,
       "id": 201
+    },
+    {
+      "userId": 1,
+      "title": "Learn stuff",
+      "complete": false,
+      "id": 202
     }
   ]
 }
