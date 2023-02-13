@@ -138,7 +138,8 @@ export const {
     useGetPostsByUserIdQuery,
     useAddNewPostMutation,
     useUpdatePostMutation,
-    useDeletePostMutation
+    useDeletePostMutation,
+    useAddReactionMutation
 } = extendedApiSlice
 
 // returns the query result object
