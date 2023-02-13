@@ -111,6 +111,9 @@ export const extendedApiSlice = apiSlice.injectEndpoints({
 export const {
     useGetPostsQuery,
     useGetPostsByUserIdQuery,
+    useAddNewPostMutation,
+    useUpdatePostMutation,
+    useDeletePostMutation
 } = extendedApiSlice
 
 // returns the query result object
